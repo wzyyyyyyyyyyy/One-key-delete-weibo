@@ -26,14 +26,12 @@
     function getWeibo() {
         if( $('[action-type="feed_list_item"]').length> 0){
             $weibo =  $('[action-type="feed_list_item"]');
-            console.log( $weibo);
             $weibo.each(function(e){
                 addDelBtn($(this));
             });
         }
     }
     function addDelBtn(dom) {
-        console.log(dom.find('[data-del]').length);
         if(dom.find('[data-del]').length !== 0){
             return ;
         }
