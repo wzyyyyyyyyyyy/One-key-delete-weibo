@@ -1,4 +1,4 @@
-
+## 需要 Greasemonkey 插件
 ## @name         One key delete weibo
 ## @namespace    http://weibo.com/quxm
 ## @version      0.1
